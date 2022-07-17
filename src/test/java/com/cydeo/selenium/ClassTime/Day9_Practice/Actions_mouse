@@ -1,0 +1,7 @@
+Actions action = new Actions(driver);
+actions.doubleClick();
+actions.moveToElement(element).doubleClick().perform();
+
+IMPORTANT!
+
+build=> in early version we need to call his method before perform. No need to use it anymore.

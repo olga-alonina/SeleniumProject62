@@ -1,0 +1,24 @@
+Test NG is unit testing framework
+    - test are independent, run from top to button bu alphabetical order
+    - we could change it with priority
+
+   *********** from parent to child*************
+    //tagname[@attribute='value']/child
+
+    *********from child to parent**********
+    //tagname[@attribute='value']/..     ->will go to the parent of this webElement
+    How to handle dynamic WebElements
+   ******** first way:*************
+    locate static parent or child(it will not change, so you could rely on it)
+   ********* Second way************
+    contains, start with, ends with
+
+    //tagname[contains(@atribute,'value')]
+    //tagname[ends with(@atribute,'value)]
+    //tagname[start With(@atribute,'value)]
+
+  *******  how to use index in locators******
+    after search if we receive more that 1 result:
+   - if they siblings     ->//table[2]
+   - if they not          ->(//table)[2]
+

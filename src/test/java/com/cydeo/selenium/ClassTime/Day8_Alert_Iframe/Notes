@@ -1,0 +1,5 @@
+        // How to go from June to April
+        //option[@value='5'])[1]/preceding-sibling::option[2]
+
+        // from June to October
+        // (//option[@value='5'])[1]/following-sibling::option[4]

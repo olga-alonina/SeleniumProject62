@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="regression suite">
+    <test name="Selenium test">
+        <classes>
+            <class name="com.cydeo.selenium.ClassTime.Day7_dropdown_alert_iframe.TestNG_Selenium"></class>
+        </classes>
+    </test>
+
+    <test name="TestNG intro">
+        <classes>
+            <class name="com.cydeo.selenium.ClassTime.Day7_dropdown_alert_iframe.P01_TestNG_Intro"></class>
+            <class name="com.cydeo.selenium.ClassTime.Day7_dropdown_alert_iframe.P02_Hard_Soft_Assertions"></class>
+        </classes>
+    </test>
+    
+    <test name="test packages">
+        <packages>
+            <package name="com.cydeo.selenium.ClassTime.Day7_dropdown_alert_iframe"></package>
+        </packages>
+    </test>
+</suite>
